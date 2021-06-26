@@ -2,7 +2,6 @@
 将编程随想的《太子党关系网络》的yaml数据转换成方便echarts使用的json。
 
 ## yaml到json的转换
----
 
 想用的话得先安装东西。首先安装Node.js。来这里[nodejs.org](https://nodejs.org/en/)下载LTS版本。
 
