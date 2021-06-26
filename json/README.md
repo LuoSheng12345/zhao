@@ -24,7 +24,7 @@ zhao.json就是跑完之后输出的文件
     }
 
 ## Nuxt数据可视化
----
+
 Nuxt前端部分和此项目独立。前端的Repo在 [github.com/LuoSheng12345/zhao-visualized](https://github.com/LuoSheng12345/zhao-visualized)。来这儿 [zhao-visualized.netlify.app](https://zhao-visualized.netlify.app) 看网站。
     
 ## 数据来源
