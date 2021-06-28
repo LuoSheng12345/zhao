@@ -14,7 +14,8 @@ other_names: {"小名":"羊羊","旧数据库名":"卓玥"}
 sex: F
 
 # birth 必填。填写出生时间，用【4位数年份】表示。未知年份用 N/A 表示。
-birth: N/A
+# 出生日期不确定，https://www.epochtimes.com/gb/14/3/27/n4116675.htm 这个报道有提及
+birth: 1979
 
 # death 可为空。填写死亡时间，用【4位数年份】表示。未知年份用 N/A 表示。尚未死亡则留空。
 death: 
