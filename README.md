@@ -5,8 +5,8 @@
 
 我Fork了这个项目希望可以继续维护，同时也为了给我的数据可视化项目[《太子党关系网络》可交互视觉化](https://github.com/LuoSheng12345/zhao-visualized) 提供更新更准的数据。[来这里](https://github.com/LuoSheng12345/zhao/blob/master/OLD_README.wiki) 可以看到编程随想曾经写的README.wiki，编程随想的原repo [在这里](https://github.com/programthink/zhao)
 
-## 当前的任务及进度
-可以[来这里](https://github.com/LuoSheng12345/zhao/projects/2) 看到当前这个项目的主要目标和进度。现在的主要目标是更新所有18年5月后有所改变的数据，比如说在18年5月后死掉的人。
+## 查看我对编程随想的数据库的更新及改动
+可以[来这里](https://github.com/LuoSheng12345/zhao/projects/2) 看到当前这个项目所有的对原数据库的内容的改动，以及我可能会进行的改动。
 
 ## 如何为这个项目做贡献
 如果你发现这个数据库的数据有问题，比如说数据错误、缺失、或者过时，希望可以修改、添加文件的话，可以通过以下的方式做贡献。
