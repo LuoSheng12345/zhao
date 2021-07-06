@@ -15,7 +15,7 @@ var relations=yaml.load(fs.readFileSync(relationsPath))
 var nodes={}
 var links=[]
 
-function addNodeOrAddConnections(name){
+function addNodeIfNotExist(name){
     if(!nodes[name]){
         var ya=null
         if(fs.existsSync(entitiesPath+name+'.yaml')){
@@ -24,12 +24,13 @@ function addNodeOrAddConnections(name){
         }
         nodes[name]={
             name:name,
-            connections:1,
+            connections:0,
             data:ya
         }
-    }else{
-        nodes[name].connections+=1
     }
+    // else{
+    //     nodes[name].connections+=1
+    // }
 
     // if(name=='邓子恢'){
     //     console.log(nodes[name].connections)
@@ -40,14 +41,10 @@ relations.forEach(r => {
     var shui=r.谁
     var shishui=r.是谁
 
-    if(shui.includes('邓子恢')||shishui.includes('邓子恢')){
-        console.log(r)
-    }
-
     shui.forEach(sourceEntity=>{
-        addNodeOrAddConnections(sourceEntity)
+        addNodeIfNotExist(sourceEntity)
         shishui.forEach(targetEntity=>{
-            addNodeOrAddConnections(targetEntity)
+            addNodeIfNotExist(targetEntity)
             links.push({
                 source:sourceEntity,
                 target:targetEntity,
@@ -57,6 +54,14 @@ relations.forEach(r => {
     })
     
 });
+
+
+//make connections
+
+links.forEach(l=>{
+    nodes[l.source].connections+=1
+    nodes[l.target].connections+=1
+})
 
 // console.log(nodes)
 
