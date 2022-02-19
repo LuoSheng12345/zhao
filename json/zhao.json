@@ -13209,15 +13209,15 @@
     {
       "id": 755,
       "name": "邓垦",
-      "isAlive": true,
+      "isAlive": false,
       "info": {
         "name": "邓垦",
         "other_names": {
           "原名": "邓先修"
         },
         "sex": "M",
-        "birth": "N/A",
-        "death": null,
+        "birth": 1911,
+        "death": 2017,
         "desc": "武汉市委书记\n湖北省副省长\n",
         "links": null
       },
